@@ -1,0 +1,56 @@
+#pragma once
+
+#include "../SDK.h"
+
+// Name: , Version: 1.0.0
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+// Parameters
+//---------------------------------------------------------------------------
+
+// Function UI_VideoSetting_Button.UI_VideoSetting_Button_C.GetText_1
+struct UUI_VideoSetting_Button_C_GetText_1_Params
+{
+	struct FText                                       ReturnValue;                                              // (Parm, OutParm, ReturnParm)
+};
+
+// Function UI_VideoSetting_Button.UI_VideoSetting_Button_C.Prev
+struct UUI_VideoSetting_Button_C_Prev_Params
+{
+};
+
+// Function UI_VideoSetting_Button.UI_VideoSetting_Button_C.Next
+struct UUI_VideoSetting_Button_C_Next_Params
+{
+};
+
+// Function UI_VideoSetting_Button.UI_VideoSetting_Button_C.OnMouseButtonDown
+struct UUI_VideoSetting_Button_C_OnMouseButtonDown_Params
+{
+	struct FGeometry*                                  MyGeometry;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
+	struct FPointerEvent*                              MouseEvent;                                               // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
+	struct FEventReply                                 ReturnValue;                                              // (Parm, OutParm, ReturnParm)
+};
+
+// Function UI_VideoSetting_Button.UI_VideoSetting_Button_C.GetBrush_1
+struct UUI_VideoSetting_Button_C_GetBrush_1_Params
+{
+	struct FSlateBrush                                 ReturnValue;                                              // (Parm, OutParm, ReturnParm)
+};
+
+// Function UI_VideoSetting_Button.UI_VideoSetting_Button_C.OnValudChanged__DelegateSignature
+struct UUI_VideoSetting_Button_C_OnValudChanged__DelegateSignature_Params
+{
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
